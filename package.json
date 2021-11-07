@@ -1,0 +1,35 @@
+{
+    "name": "labassignment",
+    "version": "1.0.0",
+    "description": "lab assignment",
+    "main": "start.js",
+    "scripts": {
+      "test": "",
+      "watch": "nodemon ./starts.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jujuzz/m3-w1-d2-assignment"
+    },
+    "keywords": [
+      "none"
+    ],
+    "author": "YZ",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jujuzz/m3-w1-d2-assignment"
+    },
+    "homepage": "https://github.com/jujuzz/m3-w1-d2-assignment",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-validator": "^6.13.0",
+      "http-auth": "^4.1.9",
+      "mongoose": "^6.0.12",
+      "pug": "^3.0.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.14"
+    }
+  }
